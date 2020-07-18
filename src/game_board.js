@@ -5,9 +5,9 @@ const Deck = require('../src/deck');
 
 
 class GameBoard {
-  constructor() {
-    this.players = [];
-    this.deck = '';
+  constructor(players, deck ) {
+    this.players = players || [];
+    this.deck = deck || '';
     this.winner = '';
   }
 
