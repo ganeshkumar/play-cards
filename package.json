@@ -1,0 +1,15 @@
+{
+  "name": "play-cards",
+  "version": "1.0.0",
+  "description": "\"Playing cards game with luck\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node ./src/index.js"
+  },
+  "author": "ganesh",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
+}
